@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" id="id_nombre">Ejercicio1</string>
+    <string name="txt_nombre">NOMBRE:</string>
+    <string name="txt_email">EMAIL:</string>
+    <string name="txt_edad">EDAD:</string>
+    <string name="hint_nombre" />
+    <string name="hint_email" />
+    <string name="hint_edad" />
+    <string name="boton" >Guardar</string>
+</resources>

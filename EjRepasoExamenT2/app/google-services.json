@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937131714466",
+    "project_id": "repasoexament2-305715",
+    "storage_bucket": "repasoexament2-305715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937131714466:android:ffed87d215b6b4579734fb",
+        "android_client_info": {
+          "package_name": "com.example.ejrepasoexament2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937131714466-9pd51di5ul754m7jq9g4cus8l45i928q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe6REXh92h5pfyeKL37KZxEAqZpaCvcuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937131714466-9pd51di5ul754m7jq9g4cus8l45i928q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

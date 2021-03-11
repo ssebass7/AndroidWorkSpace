@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spn_provincias"
+        android:layout_width="365dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_provincias"
+        app:layout_constraintTop_toBottomOf="@+id/txt_provincias" />
+
+    <Spinner
+        android:id="@+id/spn_municipios"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/spn_provincias"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spn_provincias"
+        app:layout_constraintTop_toBottomOf="@+id/txt_municipios" />
+
+    <TextView
+        android:id="@+id/txt_provincias"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/provincias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_municipios"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/municipios"
+        app:layout_constraintStart_toStartOf="@+id/spn_provincias"
+        app:layout_constraintTop_toBottomOf="@+id/spn_provincias" />
+
+    <WebView
+        android:id="@+id/web_View"
+        android:layout_width="395dp"
+        android:layout_height="349dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/spn_municipios"
+        app:layout_constraintTop_toBottomOf="@+id/spn_municipios"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_apellido">APELLIDO:</string>
+    <string name="text_name">NOMBRE:</string>
+    </resources>
